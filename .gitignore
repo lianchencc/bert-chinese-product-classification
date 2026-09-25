@@ -1,0 +1,13 @@
+# Datasets are not published
+data/*
+!data/README.md
+
+# Generated outputs and model files
+outputs/
+*.pt
+*.bin
+*.safetensors
+
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
